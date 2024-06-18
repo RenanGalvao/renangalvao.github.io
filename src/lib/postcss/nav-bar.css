@@ -1,0 +1,8 @@
+#mobile-menu {
+    left: -100%;
+    transition: .6s ease-in-out;
+}
+
+#mobile-menu.open {
+    left: 0;
+}

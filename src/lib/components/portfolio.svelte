@@ -2,9 +2,9 @@
 	import { base } from '$app/paths'
 </script>
 
-<section id="portfolio" class="clear-both container w-4/5 mx-auto">
+<section id="portfolio" class="clear-both container mx-auto md:w-4/5">
 	<h1 class="text-4xl mb-4 text-center">Portfólio</h1>
-	<div class="container w-3/5 mx-auto">
+	<div class="container mx-auto xl:w-3/5">
 		<div class="head">
 			<a href="https://projetoumportodostodosporum.org" target="_blank">
 				<img src="{base}/images/projeto.jpg" alt="https://projetoumportodostodosporum.org" />

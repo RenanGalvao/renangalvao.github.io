@@ -6,10 +6,10 @@
 	import { base } from '$app/paths'
 </script>
 
-<main class="container w-full h-[calc(100vh-6rem)] mt-12 flex justify-center">
-	<div class="w-2/5 self-center">
+<main class="container w-full mt-8 flex flex-col-reverse lg:mt-12 lg:h-[calc(100vh-6rem)] lg:flex-row lg:justify-around xl:justify-center">
+	<div class="lg:w-2/5 lg:self-center">
 		<span class="flex items-center mb-1"><Icon src={IoLocationOutline} className="icon" /> Rio de Janeiro, RJ</span>
-		<h1 class="text-6xl mb-1">Olá,<br/> eu sou o Renan</h1>
+		<h1 class="text-4xl xl:text-6xl mb-1">Olá,<br/> eu sou o Renan</h1>
 		<p class="text-justify">
 			Sou desenvolvedor backend com proeficiência em Nodejs, estudo desenvolvimento web há mais de 2 anos e sou
 			entusiasta da programação. Nasci em São Paulo, tenho 29 anos e aprendi algumas tecnologias
@@ -34,7 +34,7 @@
 		</ul>
 	</div>
 
-	<div class="w-1/2 flex justify-center items-center">
-        <img src="{base}/images/pic.jpg" alt="Foto do autor" class="h-[calc(100%-10%)]">
+	<div class="md:w-full md:h-[calc(500px)] md:overflow-clip lg:flex lg:h-auto lg:w-2/5 lg:justify-center lg:items-center xl:w-1/2">
+        <img src="{base}/images/pic.jpg" alt="Foto do autor" class="md:w-full md:h-full md:object-cover lg:h-auto lg:w-auto">
     </div>
 </main>
