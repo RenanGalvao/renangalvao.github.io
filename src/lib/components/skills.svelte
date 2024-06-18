@@ -32,9 +32,9 @@
 	} from 'svelte-icons-pack/si'
 </script>
 
-<section id="habilidades" class="container w-2/5 mt-12 mb-24 float-right">
+<section id="habilidades" class="container mt-8 mb-16 lg:w-2/5 lg:float-right xl:mt-12 xl:mb-24">
 	<h1 class="text-4xl mb-1">Habilidades</h1>
-	<ul class="flex flex-wrap w-11/12">
+	<ul class="flex flex-wrap md:w-4/5 lg:w-full xl:w-11/12">
 		<li><Icon src={SiGit} className="icon" /></li>
 		<li><Icon src={SiDocker} className="icon" /></li>
 		<li><Icon src={SiNginx} className="icon" /></li>
@@ -53,7 +53,7 @@
 	</ul>
 
     <h2 class="text-2xl mb-1 mt-4">Noções</h2>
-    <ul class="flex flex-wrap w-11/12">
+    <ul class="flex flex-wrap md:w-4/5 lg:w-full xl:w-11/12">
         <li><Icon src={SiDigitalocean} className="icon" /></li>
         <li><Icon src={SiLinux} className="icon" /></li>
         <li><Icon src={SiGnubash} className="icon" title="Bash Scripting" /></li>
