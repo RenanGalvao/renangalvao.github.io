@@ -12,7 +12,7 @@
 		<h1 class="text-4xl xl:text-6xl mb-1">Olá,<br/> eu sou o Renan</h1>
 		<p class="text-justify">
 			Sou desenvolvedor backend com proeficiência em Nodejs, estudo desenvolvimento web há mais de 2 anos e sou
-			entusiasta da programação. Nasci em São Paulo, tenho 29 anos e aprendi algumas tecnologias
+			entusiasta da programação. Nasci em São Paulo, tenho 30 anos e aprendi algumas tecnologias
 			do conforto da minha casa. Apesar de também saber um pouco de frontend o meu foco é no back.
 		</p>
 		<ul class="mt-4 flex flex-col">
