@@ -10,7 +10,7 @@
 	<div class="lg:w-2/5 lg:self-center">
 		<span class="flex items-center mb-1"><Icon src={IoLocationOutline} className="icon" /> Rio de Janeiro, RJ</span>
 		<h1 class="text-4xl xl:text-6xl mb-1">Olá,<br/> eu sou o Renan</h1>
-		<p class="text-justify">
+		<p class="indent-4 text-justify">
 			Sou desenvolvedor backend com proeficiência em Nodejs, estudo desenvolvimento web há mais de 2 anos e sou
 			entusiasta da programação. Nasci em São Paulo, tenho 30 anos e aprendi algumas tecnologias
 			do conforto da minha casa. Apesar de também saber um pouco de frontend o meu foco é no back.
