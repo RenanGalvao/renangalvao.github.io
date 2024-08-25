@@ -19,7 +19,7 @@
     ]
 </script>
 
-<main class="container w-full mt-8 lg:mt-12 lg:h-[calc(100vh-6rem)]">
+<main class="container w-full mt-8 lg:mt-12 lg:min-h-[calc(100vh-12rem)]">
     {#each scripts as script}
         <Item {...script} />
     {/each}
