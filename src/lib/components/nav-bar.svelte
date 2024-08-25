@@ -33,15 +33,15 @@
 
 	<ul class="hidden lg:flex text-lg">
 		<li class="mr-4 group">
-			<a href="#sobre">Sobre</a>
+			<a href="/#sobre">Sobre</a>
 			<span class="block bg-black w-0 h-0.5 group-hover:w-full transition-all duration-200"></span>
 		</li>
 		<li class="mr-4 group">
-			<a href="#habilidades">Habilidades</a>
+			<a href="/#habilidades">Habilidades</a>
 			<span class="block bg-black w-0 h-0.5 group-hover:w-full transition-all duration-200"></span>
 		</li>
 		<li class="mr-4 group">
-			<a href="#portfolio">Portfólio</a>
+			<a href="/#portfolio">Portfólio</a>
 			<span class="block bg-black w-0 h-0.5 group-hover:w-full transition-all duration-200"></span>
 		</li>
 		<li class="mr-4 group">
@@ -62,13 +62,13 @@
 
 	<ul class="flex flex-col text-xl mt-12">
 		<li class="mb-4">
-			<a href="#sobre" on:click={closeMobileMenu}>Sobre</a>
+			<a href="/#sobre" on:click={closeMobileMenu}>Sobre</a>
 		</li>
 		<li class="mb-4">
-			<a href="#habilidades" on:click={closeMobileMenu}>Habilidades</a>
+			<a href="/#habilidades" on:click={closeMobileMenu}>Habilidades</a>
 		</li>
 		<li class="mb-4">
-			<a href="#portfolio" on:click={closeMobileMenu}>Portfólio</a>
+			<a href="/#portfolio" on:click={closeMobileMenu}>Portfólio</a>
 		</li>
 		<li class="mb-4">
 			<a href="/scripts" on:click={closeMobileMenu}>Scripts</a>
