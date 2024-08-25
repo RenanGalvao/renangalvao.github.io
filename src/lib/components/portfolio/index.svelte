@@ -1,5 +1,4 @@
 <script>
-	import { base } from '$app/paths'
 	import { onMount } from 'svelte'
 
 	import Swiper from 'swiper'
@@ -17,7 +16,7 @@
 				módulos, a aplicação é escrita em NodeJS e conteinerizada utilizando Docker, disponibilizada através de
 				uma máquina virtual gerenciada por mim. Importante notar que anteriormente o projeto estava todo em PHP
 				sem nenhum tipo de controle de versificação e gerenciamento de pacotes.`,
-			image: `${base}/images/projeto-logo.webp`,
+			image: `/images/projeto-logo.webp`,
 			codeHref: 'https://github.com/ProjetoUmPorTodosTodosPorUm',
 			viewHref: 'https://projetoumportodostodosporum.org'
 		},
@@ -27,7 +26,7 @@
 			description: `	Site para divulgação e venda das obras da cantora Wilma Machado. As principais tecnologias utilizadas
 				foram Nginx, Docker, NodeJS, Sveltekit e Postgresql. Possui CMS, bash scripts para automatização de
 				algumas tarefas e CI configurado no Github, hospedado em um VPS.`,
-			image: `${base}/images/wilma-landing.webp`,
+			image: `/images/wilma-landing.webp`,
 			codeHref: '',
 			viewHref: 'https://wilmamachado.com.br'
 		}

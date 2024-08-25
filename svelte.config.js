@@ -1,6 +1,5 @@
 import adapter from '@sveltejs/adapter-static'
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte'
-import { REPO_NAME } from './src/lib/constants/index.js'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -15,9 +14,6 @@ const config = {
 			$constants: 'src/lib/constants',
 			$postcss: 'src/lib/postcss'
 		},
-		paths: {
-			base: process.env.NODE_ENV === 'production' ? `/${REPO_NAME}` : ''
-		}
 	},
 	preprocess: vitePreprocess(),
 };
