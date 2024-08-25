@@ -3,7 +3,6 @@
 	import { Icon } from 'svelte-icons-pack'
 	import { SiGithub, SiGmail, SiWhatsapp } from 'svelte-icons-pack/si'
 	import { IoLocationOutline } from 'svelte-icons-pack/io'
-	import { base } from '$app/paths'
 </script>
 
 <main class="container w-full mt-8 flex flex-col-reverse lg:mt-12 lg:h-[calc(100vh-6rem)] lg:flex-row lg:justify-around xl:justify-center">
@@ -35,6 +34,6 @@
 	</div>
 
 	<div class="md:w-full md:h-[calc(500px)] md:overflow-clip lg:flex lg:h-auto lg:w-2/5 lg:justify-center lg:items-center xl:w-1/2">
-        <img src="{base}/images/pic.jpg" alt="Foto do autor" class="md:w-full md:h-full md:object-cover lg:h-auto lg:w-auto">
+        <img src="/images/pic.jpg" alt="Foto do autor" class="md:w-full md:h-full md:object-cover lg:h-auto lg:w-auto">
     </div>
 </main>
